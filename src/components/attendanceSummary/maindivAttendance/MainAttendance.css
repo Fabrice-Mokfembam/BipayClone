@@ -20,7 +20,7 @@
 
 .firstAttend{
     width: 96%;
-    height: 30px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +87,13 @@ input[type=text]::placeholder{
     flex-direction: column;
     gap: 15px;
     
+}
+.ite{
+    display: flex;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .hours{
     width: 450px;
@@ -177,4 +184,202 @@ input[type=text]::placeholder{
 
 .ju{
     margin-top: 2rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    .main-attendance{
+        width: 99%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .svgDivs{
+        width: 80%;
+        height: 800px;
+        margin-top: 0px;
+    }
+    .hrs{
+        margin-left: -60px;
+        margin-top: 10px;
+    }
+    .hours{
+        width: 400px;
+    }
+    .div1-mainAttendance{
+        height: auto;
+    }
+    .ju{
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width:950px) {
+  .svgDivs{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -160px;
+    padding-bottom: 10px;
+  }
+  .secondAttend{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .hrs{
+      margin: 0px;
+  }
+   .ite{
+        width: 100%;
+        height: inherit;
+    }
+}
+
+@media screen and (max-width:800px) {
+  .ThirdAttend{
+    width: 100%;
+    overflow-x:auto ;
+  }
+  .listTable,.ltable{
+    width: 800px;
+  }
+}
+
+@media screen and (max-width:720px) {
+  
+    .firstAttend{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+    .ite{
+        width: 100%;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .an{
+        width: 96%;
+        height: 45px;
+    }
+   input[type=text]{
+    width: 36rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width:720px) {
+   input[type=text]{
+    width: 33rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+}
+@media screen and (max-width:580px) {
+   input[type=text]{
+    width: 30rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width:530px) {
+   input[type=text]{
+    width: 27rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width:473px) {
+   input[type=text]{
+    width: 24rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+}
+@media screen and (max-width:470px) {
+    .firstAttend{
+        width: 100%;
+        overflow-x: auto;
+    }
+.an{
+    width: 420px;
+}
+ 
+}
+@media screen and (max-width:440px) {
+   input[type=text]{
+    width: 21rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.hours{
+    width: 330px;
+}
+.svgDivs{
+    width: 480px;
+    margin-left: -8px;
+}
+}
+@media screen and (max-width:430px) {
+   input[type=text]{
+    width: 18rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.hours{
+    width: 330px;
+}
+.svgDivs{
+    width: 440px;
+}
+}
+@media screen and (max-width:370px) {
+   input[type=text]{
+    width: 18rem;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.hours{
+    width: 300px;
+}
+.svgDivs{
+    width: 440px;
+}
 }

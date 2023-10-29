@@ -12,31 +12,36 @@
     font-family: 'Inter';
 }
 
-@media screen and (max-width:1115px){
+@media screen  and (min-width: 1001px) and (max-width:1115px){
 .headofdeskflex{
    display: flex;
    flex-direction: column;
-   align-items: start;
+   align-items: center;
    justify-content: center;
-   gap: 0px;
+   gap: 1rem;
 }
 
+
 }
+
 @media screen and (max-width:1000px){
 .main-headOfDesk-Container{
   width: inherit;
   background-color: rgb(35, 36, 35);
  
 }
+.headofdeskflex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+   }
 
 }
 
 @media screen and (max-width:750px) {
    .headofdeskflex{
-    display: flex;
-    flex-direction: column;
     gap: 17rem;
-    align-items: center;
    }
 }
 @media screen and (max-width:500px) {

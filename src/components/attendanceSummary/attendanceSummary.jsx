@@ -8,7 +8,7 @@ function AttendanceSummary() {
     <>
       <div className='main-headOfDesk-Container'>
         <div  className='headofDesk'>
-          <div className="headOfDesk-wrapper">
+          <div className="headOfDesk-wrapper lpo" >
               <div className="topHead">
                   <p className='p1'>Job Desk</p>
                   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">

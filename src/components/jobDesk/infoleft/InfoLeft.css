@@ -74,13 +74,59 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1115px) {
-    .main-infoleft-inner-container{
-        width: 760px;
+@media screen  and (min-width: 1001px) and (max-width:1115px){
+    .main-infoleft-container{
+        height: 250px;
+        width: 98%;
         display: flex;
-        height: 230px;
+        justify-content: center;
     }
+    .midlevel{
+        display: flex;
+    }
+  .main-infoleft-inner-container{
+    display: flex;
+    width: 98%;
+    height: 100%;
+  }
+  .image-infoleft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: -13px;
+  }
+  .img-infocontainer{
+    width: 140px;
+    height: 140px;
+  }
+  .indev{
+    align-items: start;
+  }
+  .img-infoleft-writings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name-infoleft{
+    font-size: 18px;
+  }
+.midlevel{
+    width: 60%;
 }
+.middle-div{
+    width: 50%;
+}
+.last-div{
+    width: 50%;
+    margin-top: 35px;
+}
+.fifth{
+    margin: 20px 0px 20px 0px ;
+}
+}
+
 @media screen and (max-width:1000px) {
     .main-infoleft-container{
         height: 270px;

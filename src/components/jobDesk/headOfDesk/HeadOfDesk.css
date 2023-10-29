@@ -63,6 +63,12 @@ letter-spacing: -0.017em;
     border-radius: 6px;
 }
 
+@media screen  and (min-width: 1001px) and (max-width:1115px){
+    .headofDesk{
+        width: 98%;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .headofDesk{
         width: 100%;

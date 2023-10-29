@@ -186,6 +186,15 @@ input[type=number]{
     border-right: none;
 }
 
+@media screen  and (min-width: 1001px) and (max-width:1115px){
+    .main-inforight-container{
+        width: 100%;
+    }
+    .main-inforight-inner-container{
+        width: 96%;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .main-inforight-container{
         width: 100%;
