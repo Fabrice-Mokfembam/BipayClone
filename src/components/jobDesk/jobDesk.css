@@ -35,7 +35,15 @@
    .headofdeskflex{
     display: flex;
     flex-direction: column;
-    gap: 20rem;
+    gap: 17rem;
+    align-items: center;
+   }
+}
+@media screen and (max-width:500px) {
+   .headofdeskflex{
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
     align-items: center;
    }
 }

@@ -66,6 +66,7 @@ function InfoRight() {
             </div>
           ))}
         </div>
+
         <div className="second">
           <div className="flexpart">
             <div className="attend">
@@ -245,10 +246,13 @@ function InfoRight() {
            </button>
             <button className='prev'>Prev</button>
             <button className='next'>Next</button>
+            <svg className='svgNone' width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 4.5L10 8.5L6 12.5" stroke="#B5B5C0" stroke-width="1.20741" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
 
           </div>
           <div className="pagesNum">
-            <span>page: <input type="number" className='number' /></span>
+            <span className='num'>page: <input type="number" className='number' /></span>
             of <span>100</span>
             <span><input type="number" className='number'/></span>
           </div>
