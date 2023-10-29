@@ -1,6 +1,6 @@
 import React from 'react'
 import HeadOfDesk from '../jobDesk/headOfDesk/HeadOfDesk'
-import './AttendanceSummary.css'
+import './attendanceSummary.css'
 import MainAttendance from './maindivAttendance/MainAttendance'
 
 function AttendanceSummary() {
