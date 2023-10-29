@@ -1,5 +1,5 @@
 import React from 'react'
-import './infoleft.css'
+import './infoLeft.css'
 import thiago from '../../../assets/images/remix1.jpg'
 
 function InfoLeft() {
