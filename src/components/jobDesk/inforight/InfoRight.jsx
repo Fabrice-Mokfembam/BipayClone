@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './infoRight.css';
+import './InfoRight.css';
 
 function InfoRight() {
   const [activeIndex, setActiveIndex] = useState(0);
