@@ -557,7 +557,7 @@ input[type=number]{
 .pagesNav{
     width: 250px;
     justify-content: space-between;
-    margin-left: -8px;
+    margin-left: -2px;
 }
 .prev,.next{
     padding: 13px 30px;
