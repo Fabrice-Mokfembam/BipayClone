@@ -1,0 +1,83 @@
+.main-sidebar-container{
+    width: 250px;
+    height: 550px;
+    background-color: #D1D4DB;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: inherit;
+    height: 40px;
+}
+.navigation:hover{
+    background-color: #E0E0E0;
+    cursor: pointer;
+;
+}
+.navigation-wrapper{
+    width:180px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+}
+.text{
+    font-family: Inter;
+    font-size: 17.78px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.006em;
+    text-align: center;
+
+}
+.attendanceList{
+    width: inherit;
+    margin: 5px 0px;
+    font-family: intel;
+    font-size: 18px;
+}
+.attendanceList li{
+    height: 25px;
+    list-style: none;
+    margin-left: -30px;
+    border-radius: 7px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+     
+}
+.attendanceList li:hover{
+    background-color: #939497;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .main-sidebar-container {
+    display: none;
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 250px;
+    height: 550px;
+    animation: smoth 2s ease forwards;
+    z-index: 999;
+  }
+
+  @keyframes smoth {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: none;
+    }
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

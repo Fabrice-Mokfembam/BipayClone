@@ -1,0 +1,22 @@
+.main-headOfDesk-Container{
+    background-color: #f5f5f5;
+     
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.btntwo{
+    background-color: #fff;
+    color: #212143;
+    display: flex;
+    gap: 2px;
+    border: none;
+    box-shadow: 0px 0px 4px rgb(214, 213, 213);
+}
+
+.btnOne{
+    display: flex;
+    gap: 2px;
+}

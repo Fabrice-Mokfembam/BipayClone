@@ -1,0 +1,41 @@
+.headofdeskflex{
+    display: flex;
+    background-color: #F5F5F5;   
+}
+.main-headOfDesk-Container{
+    height: calc(100vh - 50px);
+    background-color:#F5F5F5;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.jobBtn{
+    font-family: 'Inter';
+}
+
+@media screen and (max-width:1115px){
+.headofdeskflex{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   gap: 0px;
+}
+
+}
+@media screen and (max-width:1000px){
+.main-headOfDesk-Container{
+  width: inherit;
+  background-color: rgb(35, 36, 35);
+ 
+}
+
+}
+
+@media screen and (max-width:750px) {
+   .headofdeskflex{
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    align-items: center;
+   }
+}

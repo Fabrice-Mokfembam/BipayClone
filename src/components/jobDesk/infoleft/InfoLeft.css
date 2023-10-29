@@ -1,0 +1,375 @@
+.main-infoleft-container{
+    width: 296px;
+    height: 500px;
+    padding: 14px 14px 14px 20px;
+    font-family: 'Inter';
+}
+
+.main-infoleft-inner-container{
+    width: 240px;
+    height: 470px;
+    padding: 16px 32px 16px 22px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.image-infoleft,.dev{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+}
+.img-infocontainer{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;  
+}
+.thiagoImg{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.name-infoleft{
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.job-infoleft{
+    color: #9E9E9E;
+;
+}
+.middle-div,.last-div{
+    height: 200px;
+    margin-top: 1.5rem;
+}
+.middle-div .intro{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.indev{
+    font-size: 13px;
+}
+.admininfo{
+    padding: 4px;
+}
+.g{
+    color:  #0A7E22;
+;
+}
+.devl{
+    padding: 2px;
+}
+.lp{
+    color: #9E9E9E;
+    margin-bottom: 1px;
+}
+.l{
+    color: #404040;
+
+}
+.blue{
+    color: #146ADC;
+}
+.blue:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1115px) {
+    .main-infoleft-inner-container{
+        width: 760px;
+        display: flex;
+        height: 230px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .main-infoleft-container{
+        height: 270px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+    }
+    .midlevel{
+        height: inherit;
+        display: flex;
+        gap: 1px;
+        justify-content: center;
+        width: 70%;
+    }
+    .main-infoleft-inner-container{
+        width: 80%;
+        display: flex;
+        height: 240px;
+    }
+    .image-infoleft{
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     }
+   .img-infocontainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -22px;
+    
+   }
+  .middle-div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 45px;
+  }
+  .last-div{
+    width: 50%;
+    margin-bottom: -25px;
+    margin-left: -20px;
+  }
+  .name-infoleft{
+    font-weight: 600;
+    margin-bottom:6px;
+    font-size: 1.24rem;
+    letter-spacing: -0.6px;
+ }
+.job-infoleft{
+    font-size: 1.1rem;
+    letter-spacing: .8px;
+    
+;
+}
+.img-infoleft-writings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.indev{
+    font-size: 1rem;
+    letter-spacing: .4px;
+}
+.devll{
+    display: flex;
+    margin-top: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.writtings2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.last-div .intro{
+    margin-top: -17px;
+}
+.new{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width:870px) {
+   .indev{
+    font-size: .92rem;
+    letter-spacing: normal;
+   }
+   .last-div{
+    margin-top: 33px;
+   }
+   .name-infoleft{
+    font-size:1rem ;
+   } 
+   .job-infoleft{
+    font-size: .96rem;
+   }
+}
+@media screen and (max-width:800px) {
+    .middle-div{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:780px) {
+    .middle-div{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:750px) {
+    .main-infoleft-inner-container{
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+        align-items: center;
+    }
+    .midlevel{
+        width: 100%;
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+    .image-infoleft{
+        width: 100%;
+        margin-top: 13px;
+    }
+   .indev{
+    font-size: .92rem;
+    letter-spacing: normal;
+   }
+   .middle-div{
+   }
+   .last-div{
+    margin-top: 33px;
+   }
+   .name-infoleft{
+    font-size:1.2rem ;
+   } 
+   .job-infoleft{
+    font-size: 1rem;
+   }
+}
+
+@media screen and (max-width:655px) {
+    .midlevel{
+        margin-left: 18px;
+    }
+}
+@media screen and (max-width:600px) {
+    .main-infoleft-inner-container{
+        margin-left: -8px;
+    }
+    .midlevel{
+    margin-left: 10px;}
+    .last-div{
+    margin-top: 33px;
+   }
+   .name-infoleft{
+    font-size:1rem ;
+   } 
+   .job-infoleft{
+    font-size: .96rem;
+   }
+   .img-infocontainer{
+    width: 130px;
+    height: 130px;
+   }
+    }
+@media screen and (max-width:550px) {
+    .midlevel{
+    margin-left: 0px;}
+    .last-div{
+    margin-top: 33px;
+   }
+   .middle-div{
+    width: 60%;
+    margin-left: -4px;
+   }
+   .name-infoleft{
+    font-size:1rem ;
+   } 
+   .job-infoleft{
+    font-size: .96rem;
+   }
+   .img-infocontainer{
+    width: 115px;
+    height: 115px;
+   }
+    }
+    
+@media screen and (max-width:500px) {
+    
+    .middle-div{
+        margin: -6px;
+        margin-top: 6px;
+    }
+    .last-div{
+    margin-top: 20px;
+    margin-right: -18px;
+   }
+   .name-infoleft{
+    font-size:.99rem ;
+   } 
+   .job-infoleft{
+    font-size: .8rem;
+   }
+   .img-infocontainer{
+    width: 110px;
+    height: 110px;
+   }
+    }
+    
+@media screen and (max-width:460px) {
+    .midlevel{
+        width: 100%;
+        gap: 15px;
+    }
+    .main-infoleft-inner-container{
+        padding: 0px;
+        width: 400px;
+    }
+    .middle-div{
+        width: 50%;
+        margin-left: -10px;
+    }
+    .last-div{
+        width: 50%;
+        margin-top: 22px;
+        margin-right: -45px;
+   }
+   .img-infocontainer{
+    margin-top: 2px;
+   }
+   .name-infoleft{
+    font-size:.96rem ;
+   } 
+   .job-infoleft{
+    font-size: .8rem;
+   }
+   .img-infocontainer{
+    width: 110px;
+    height: 110px;
+   }
+   .dr{
+    font-size: 10px;
+   }
+   
+    }
+
+@media screen and (max-width:415px) {
+    .main-infoleft-inner-container{
+        width: 360px;
+    }
+    .middle-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    .last-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .midlevel{
+        gap: 18px;
+    }
+    }
+
+@media screen and (max-width:390px) {
+    .main-infoleft-inner-container{
+        width: 350px;
+    }
+    .middle-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    .last-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .midlevel{
+        gap: 18px;
+    }
+    }

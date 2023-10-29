@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.App{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.start-Page{
+    display: flex;
+}
+
+@media screen and (max-width:1000px) {
+    .start-Page{
+        width: 100vw;
+    }
+}

@@ -1,0 +1,320 @@
+.main-inforight-container{
+    width: 780px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inforight-inner-container{
+    width: 770px;
+    height: 710px;
+    background-color: rgb(255, 255, 255); 
+    margin-top: 15px ;
+    border-radius: 8px;
+}
+.first{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.list{
+    padding: 7px;
+    flex-grow: 1;
+}
+
+.list:hover{
+    border-bottom: 2px solid #146ADC;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 2px solid #146ADC;
+    cursor: pointer;  
+}
+
+.flexpart{
+    width: inherit;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-size: 14px;
+    gap: 31rem;
+}
+.attend{
+    font-weight: bold;
+}
+.koi{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.svg{
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.time-related{
+    width: 730px;
+    height: 100px;
+    margin:-19px auto 0px auto ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border: 2px solid #f5f5f5;
+}
+
+.each-timebox{
+    text-align: center;
+    font-size: 13.5px;
+    font-family: 'Inter';
+    border-right: 2px solid #f5f5f5;
+}
+.each-timebox:last-child{
+    border-right: none;
+}
+.each-timebox .time{
+    margin-bottom: 5px;
+}
+.third{
+   
+}
+.fourth{
+    width: 730px;
+    height: 245x;
+    margin:5px auto 0px auto ;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(182, 181, 181);
+}
+.listDate{
+    width: inherit;
+    background-color: #E0E0E0;
+    font-family: 'Inter';
+    font-size: 14px;
+    display: flex;
+    margin-top: 15px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.listDatetime{
+    padding: 6px 8px;
+    flex-grow: 1;
+    border-right: 1px solid rgb(185, 183, 183);
+    display: flex;
+    justify-content: center;
+}
+
+.listDates{
+    width: inherit;
+    font-family: 'Inter';
+    font-size: 14px;
+    display: flex;
+    margin-top: 10px;
+}
+.listDatetimex{
+    padding: 6px 8px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.pagesNum{
+    display: flex;
+    gap: 10px;
+}
+.pagesNav{
+    display: flex;
+    gap: 5px;
+}
+input[type=number]{
+    width: 30px;
+    outline: none;
+}
+.fifth{
+    width: 730px;
+    height: 245x;
+    margin:5px auto 0px auto ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+.pagesvg{
+    border: none;
+
+}
+
+.prev{
+   display: flex;
+   height: 32px;
+   padding: 8px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   border: 1px solid var(--neutral-40, #E0E0E0);
+   background: var(--neutral-10, #FFF);
+}
+.next{
+   display: flex;
+   height: 32px;
+   padding: 8px;
+   justify-content: center;
+   align-items: center;
+   outline: none;
+   border-radius: 8px;
+   border: none;
+   background: var(--info-main, #146ADC);
+}
+.listDatetime:last-child{
+    border-right: none;
+}
+
+@media screen and (max-width:1000px) {
+    .main-inforight-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-inforight-inner-container{
+    width: 86%;
+    background-color: rgb(255, 255, 255); 
+    margin-top: 15px ;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  .first{
+     width: 100%;
+   }
+   .second{
+    width: 100%;
+   }
+   .flexpart{
+    width: inherit;
+    height: 28px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+   .attend{
+    margin-left: 45px;
+    }
+  .koi{
+    margin-right: 45px;
+   }
+  .svg{
+    width: 800px;
+    height: 340px;
+    margin-left: 28px;
+  }
+ .time-related{
+    width: 88%;
+    height: 110px;
+    margin:0px auto 0px auto ;
+ }
+ .each-timebox{
+    flex-grow: 1;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+ }
+ .main-inforight-container{
+    height: auto;
+ }
+ .main-inforight-inner-container{
+    height: auto;
+    margin-bottom: 2em;
+ }
+ .svg-contaner{
+    width: 100%;
+ }
+ .svg{
+    width: 100%;
+ }
+ .fourth{
+    width: 740px;
+    height: 300px;
+    margin: 35px auto 0px auto ;
+    display: flex;
+    flex-direction: column;
+}
+.listDates{
+    flex-grow: 1;
+}
+.listDate{
+    height: 40px;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifth{
+    width: 100%;
+    height: 70px;
+    margin: 5px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagesNav,.pagesNum{
+    height: 20px;
+    will-change: 100px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.prev,.next{
+    padding: 15px 30px;
+}
+
+.number{
+    padding: 7px 15px;
+    border-radius: 8px;
+    outline: none;
+}
+}
+
+@media screen and (max-width:930px) {
+    .main-inforight-inner-container{
+        width: 800px;
+        overflow: auto;
+    }
+    .first{
+        width: 1050px;
+        background-color: #146ADC;
+    }
+}
+@media screen and (max-width:930px) {
+    .fourth{
+        width: 800px;
+        overflow-x: auto;
+    }
+    .listDate{
+        width: 1050px;
+        background-color: #146ADC;
+    }
+    .listDatex{
+        width: 1050px;
+        background-color: #146ADC;
+        flex-grow: 1;
+    }
+}

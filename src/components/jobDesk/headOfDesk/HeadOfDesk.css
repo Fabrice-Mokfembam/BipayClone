@@ -1,0 +1,130 @@
+.headofDesk{
+    width: calc(100vw - 251px);
+    height: 94px;
+    background-color:  #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(138, 136, 136, 0.5)
+;
+}
+.headOfDesk-wrapper{
+    width:  77.65vw;
+    height: 80px;
+}
+.topHead{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -16px;
+}
+.p1{
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -0.006em;
+color: #757575;
+
+}
+.p{
+font-family: Inter;
+font-size: 16.5px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: normal;
+color: #212143;
+
+}
+.bottomHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job1{
+font-family: Inter;
+font-size: 24px;
+font-weight: 550;
+line-height: 30px;
+letter-spacing: -0.017em;
+
+}
+
+.jobBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212143;
+    color: #fff;
+    font-family: intel;
+    padding: 6px 16px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:1000px) {
+    .headofDesk{
+        width: 100%;
+    }
+}
+@media screen and (max-width:530px) {
+    .p1{
+       font-size: 18px; 
+    }
+    .job1{
+        font-size: 22px;
+    }
+    .p{
+       font-size: 18px;
+    }
+    .jobBtn{
+        padding: 6px 10px;
+    }
+}
+@media screen and (max-width:500px) {
+    .p1{
+       font-size: 16px; 
+    }
+    .job1{
+        font-size: 20px;
+    }
+    .p{
+       font-size: 16px;
+    }
+    .jobBtn{
+        padding: 6px 10px;
+    }
+    .headofDesk{
+        height: 80px;
+    }
+    .headOfDesk-wrapper{
+        width: 92%;
+    }
+}
+@media screen and (max-width:430px) {
+    .headofDesk{
+        height: 70px;
+    }
+    .headOfDesk-wrapper{
+        height: 58px;
+        
+    }
+    .jobBtn{
+        padding: 4px 8px;
+    }
+    .bottomHead{
+        margin-top: -11px;
+    }
+}
+@media screen and (max-width:370px) {
+    .p1{
+        font-size: 15.5px;
+        letter-spacing: -.5px;
+    }
+    .p{
+        font-size: 15.5px;
+        letter-spacing: -.5px;
+    }
+
+}
