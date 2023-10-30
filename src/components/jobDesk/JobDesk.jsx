@@ -8,7 +8,7 @@ function JobDesk() {
   return (
       <div className='main-headOfDesk-Container'>    
           <HeadOfDesk />
-          <div className="headofdeskflex">
+          <div className="headofdeskflex" >
               <InfoLeft />
               <InfoRight />
           </div>

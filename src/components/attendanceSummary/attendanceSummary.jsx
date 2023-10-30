@@ -6,7 +6,7 @@ import MainAttendance from './maindivAttendance/MainAttendance'
 function AttendanceSummary() {
   return (
     <>
-      <div className='main-headOfDesk-Container'>
+      <div className='main-headOfDesk-Container' data-aos="zoom-in">
         <div  className='headofDesk'>
           <div className="headOfDesk-wrapper lpo" >
               <div className="topHead">

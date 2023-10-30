@@ -4,7 +4,7 @@ import Dialogue from './dialgue/Dialogue'
 
 function AttendanceDailyLog() {
   return (
-    <div className='main-dailylog'>
+    <div className='main-dailylog' data-aos="fade-up">
           <div  className='headofDesk'>
           <div className="headOfDesk-wrapper lpo" >
               <div className="topHead">
