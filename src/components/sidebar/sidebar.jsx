@@ -123,7 +123,7 @@ function Sidebar({sidebarRef}) {
      
           </div>
                    {
-                  toggleAttendance && <div className="attendanceMenu">
+                  toggleAttendance && <div className="attendanceMenu" data-aos="fade-down">
                       <ul className='attendanceList'>
                           <li onClick={navToDailyLog}>Daily log</li>
                           <li>Request</li>

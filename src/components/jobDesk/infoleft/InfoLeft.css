@@ -87,12 +87,13 @@
     cursor: pointer;
     background-color: white;
     color: #072b5c;
-    border: 1px solid  #072b5c;;
+    border: 1px solid  #072b5c;
+    outline: none;
 }
 .items:hover{
     cursor: pointer;
     background-color: rgb(156, 154, 154);
-    
+    outline: none;
 }
 
 @media screen  and (min-width: 1001px) and (max-width:1115px){
