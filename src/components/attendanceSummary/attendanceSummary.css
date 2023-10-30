@@ -21,6 +21,20 @@
     gap: 2px;
 }
 
+@media screen and (min-width:1001px) and (max-width:1115px) {
+    .moud{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .hours{
+        width: 200px;
+    }
+    .hrs{
+        margin-left: -100px;
+    }
+}
 @media screen and (max-width:1000px) {
     .moud{
         width: 100%;
@@ -33,6 +47,8 @@
 @media screen and (max-width:470px) {
     .lpo{
         position: relative;
+        margin-top: 8px;
+        margin-bottom: 4px;
     }
    .btnOne{
     position: absolute;

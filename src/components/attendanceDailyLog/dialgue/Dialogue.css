@@ -1,0 +1,27 @@
+.dial{
+    margin-top: -8rem;
+}
+
+.lvp{
+margin-left: 9px;
+}
+.lk{
+    margin-left: -5px;
+}
+.lko{
+    margin-right: -5px;
+}
+
+@media screen and (max-width:1000px) {
+   .main-dialogue-contaner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } 
+}
+@media screen and (max-width:420px) {
+  .pagesNav{
+    margin-left: -45px;
+  }
+}

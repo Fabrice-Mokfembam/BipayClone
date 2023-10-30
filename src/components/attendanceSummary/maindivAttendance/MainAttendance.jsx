@@ -177,7 +177,11 @@ const arrayOftables = ['Attendance', 'Leave', 'Folder', 'Assets', 'History', 'Sa
             <span>page: <input type="number" /></span>
             of <span>100</span>
             <span><input type="number" /></span>
-          </div>
+                  </div>
+          <svg className='svgm' width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M6 4.5L10 8.5L6 12.5" stroke="#B5B5C0" stroke-width="1.20741" stroke-linecap="round" stroke-linejoin="round"/>
+         </svg>
+        
         </div>
           </div>      
     </div>

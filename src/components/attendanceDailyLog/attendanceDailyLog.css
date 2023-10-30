@@ -1,0 +1,74 @@
+@media screen and (max-width:1000px) {
+    .main-dailylog{
+        width: 100%;
+    }
+ .dialylog{
+    width: 100%;
+    background-color: azure;
+ }   
+}
+@media screen and (max-width:829px) {
+  .btnDia{
+    padding: 4px 8px ;
+  }  
+
+}
+@media screen and (max-width:780px) {
+  .headofDesk{
+    position: relative;
+  }
+  .three{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .two{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3px;
+  }
+  .one{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right:100px;
+    margin-top: 3px;
+  }
+  .zero{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 100px;
+    margin-bottom: 3px;
+  }
+
+}
+@media screen and (max-width:470px) {
+  .headofDesk{
+    position: relative;
+  }
+  .three{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .two{
+ visibility: hidden;
+  }
+  .one{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right:100px;
+    margin-top: 3px;
+  }
+  .zero{
+  visibility: hidden;
+  }
+
+}
