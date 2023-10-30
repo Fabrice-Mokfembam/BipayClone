@@ -10,7 +10,7 @@ function JobDesk() {
           <HeadOfDesk />
           <div className="headofdeskflex">
               <InfoLeft />
-              <InfoRight/>
+              <InfoRight />
           </div>
     </div>
   )

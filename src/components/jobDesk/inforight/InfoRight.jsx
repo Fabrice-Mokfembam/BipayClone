@@ -53,7 +53,7 @@ function InfoRight() {
   };
 
   return (
-    <div className='main-inforight-container'>
+    <div className='main-inforight-container'data-aos="zoom-in-left">
       <div className='main-inforight-inner-container'>
         <div className="first">
           {arrayOfList.map((item, index) => (

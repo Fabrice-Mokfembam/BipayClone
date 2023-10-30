@@ -4,10 +4,10 @@ import thiago from '../../../assets/images/remix1.jpg'
 
 function InfoLeft() {
   return (
-    <div className='main-infoleft-container'>
+    <div className='main-infoleft-container' data-aos="zoom-in" >
       <div className='main-infoleft-inner-container'>
         <div className="image-infoleft">
-          <div className='img-infocontainer'>
+          <div className='img-infocontainer spinAnimay'>
             <img className='thiagoImg' src={thiago} alt="img" />
           </div>
           <div className="img-infoleft-writings">

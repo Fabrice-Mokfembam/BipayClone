@@ -19,7 +19,7 @@ function Sidebar({sidebarRef}) {
     }
   
   return (
-    <div  className='main-sidebar-container' ref={sidebarRef}>
+    <div  className='main-sidebar-container' ref={sidebarRef}  data-aos="fade-up">
           <div className="navigation dashboard">
              <div className="navigation-wrapper">
               <div className="icon">

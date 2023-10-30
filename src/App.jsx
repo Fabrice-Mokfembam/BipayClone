@@ -1,5 +1,5 @@
 import 'typeface-inter';
-import { useState,useRef } from 'react'
+import { useState,useRef, useEffect } from 'react'
 import Sidebar from './components/sidebar/sidebar'
 import Header from './components/header/header'
 import JobDesk from './components/jobDesk/JobDesk'
@@ -7,6 +7,8 @@ import AttendanceDailyLog from './components/attendanceDailyLog/attendanceDailyL
 import AttendanceSummary from './components/attendanceSummary/attendanceSummary'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
@@ -24,7 +26,12 @@ function App() {
     sidebarRef.current.classList.toggle('visible')
   }
 
-  
+  useEffect(() => {
+  AOS.init({
+    duration: 2000, // Animation duration in milliseconds (2 seconds)
+     });
+  }, []);
+
 
   return (
     <>
